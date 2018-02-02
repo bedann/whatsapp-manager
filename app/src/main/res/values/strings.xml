@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Status Downloader</string>
+
+    <string name="ad_app_id">ca-app-pub-3118738457810781~5158894040</string>
+    <string name="test_device">E5EE3428CC63946D1A35E8CCE8B14E42</string>
+    <string name="home_interstitial">ca-app-pub-3118738457810781/6508291270</string>
+    <string name="home_banner">ca-app-pub-3118738457810781/6156280948</string>
+    <string name="viewer_interstitial">ca-app-pub-3118738457810781/3180254503</string>
+    <string name="viewer_banner">ca-app-pub-3118738457810781/5423274464</string>
+</resources>

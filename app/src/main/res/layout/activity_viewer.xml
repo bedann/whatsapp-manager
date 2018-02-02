@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:animateLayoutChanges="true"
+    tools:context="maze.manager.reveal.Viewer">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MtoolbarTheme"
+        app:title="Viewer"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPager"
+        android:layout_above="@+id/recycler"
+        android:layout_below="@+id/toolbar"></android.support.v4.view.ViewPager>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/recycler"
+        android:layout_alignParentBottom="true"></android.support.v7.widget.RecyclerView>
+
+
+    <ProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/progress"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

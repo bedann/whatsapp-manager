@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maze.manager.reveal.Commoners.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:id="@+id/play"
+        android:alpha="0.4"
+        android:background="@android:color/black"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="3dp"
+        android:id="@+id/saved"
+        android:src="@drawable/check"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/selection"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blue_frame"
+        android:visibility="gone"/>
+
+</maze.manager.reveal.Commoners.SquareRelativeLayout>
